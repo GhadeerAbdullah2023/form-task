@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ghadeer Abdullah">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form>
+        <label>Hospital Name:</label><br>
+        <input type="text" required name="h" readonly value="Malek Hospital"><br>
+
+        <label>First Name:</label><br>
+        <input type="text" required name="f" maxlength="20" autofocus><br>
+
+        <label>Last Name</label><br>
+        <input type="text" required name="l" maxlength="30"><br>
+
+        <label>Email:</label><br>
+        <input type="email" required name="e" autocomplete="on"><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" required name="p" maxlength="9" placeholder="77"><br>
+
+        <label>Password:</label><br>
+        <input type="password" required name="pa" maxlength="8" pattern="[A-Z]+"><br>
+
+        <label>Github link:</label><br>
+        <input type="url" required name="g"><br>
+
+        <label>Age:</label><br>
+        <input type="text" required name="ag"><br>
+
+        <label>Time for reservation:</label><br>
+        <input type="time" required name="t" dat><br>
+
+        <label>Price of reservation:</label><br>
+        <input type="number" required name="pr" maxlength="1000"><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="m" checked>male<br>
+        <input type="radio" name="m">Female<br>
+
+        <label>Choose department:</label><br>
+        <input type="checkbox" checked>القلب<br>
+        <input type="checkbox">الباطنية<br>
+        <input type="checkbox" disabled>الطورئ<br>
+        <input type="checkbox">العيون<br>
+
+
+
+        <label>Select City:</label><br>
+        <select>
+            <option>Sana'a</option>
+            <option>Taiz</option>
+            <option>Aden</option>
+        </select><br>
+
+        <label>Note:</label><br>
+        <textarea name="" rows="15" cols="20">
+
+            </textarea><br>
+
+
+        <label>Uploaded image:</label><br>
+        <input type="file" required name="im" accept=".png" multiple><br>
+        <input type="reset" value="Empty Form">
+        <input type="submit" value="Send Data">
+
+
+    </form>
+
+
+
+</body>
+
+</html>
